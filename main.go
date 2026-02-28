@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-nunu/nunu/cmd/nunu"
+
+	"github.com/khy20040121/orbit/cmd/orbit"
 )
 
 func main() {
-	err := nunu.Execute()
+	err := orbit.Execute()
 	if err != nil {
 		fmt.Println("execute error: ", err.Error())
 	}

@@ -10,8 +10,8 @@ import (
 	"text/template"
 
 	"github.com/duke-git/lancet/v2/strutil"
-	"github.com/go-nunu/nunu/internal/pkg/helper"
-	"github.com/go-nunu/nunu/tpl"
+	"github.com/khy20040121/orbit/internal/pkg/helper"
+	"github.com/khy20040121/orbit/tpl"
 	"github.com/spf13/cobra"
 )
 

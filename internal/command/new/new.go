@@ -10,8 +10,8 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 
-	"github.com/go-nunu/nunu/config"
-	"github.com/go-nunu/nunu/internal/pkg/helper"
+	"github.com/khy20040121/orbit/config"
+	"github.com/khy20040121/orbit/internal/pkg/helper"
 	"github.com/spf13/cobra"
 )
 
@@ -23,7 +23,7 @@ var CmdNew = &cobra.Command{
 	Use:     "new",
 	Example: "orbit new demo-api",
 	Short:   "create a new project.",
-	Long:    `create a new project with nunu layout.`,
+	Long:    `create a new project with orbit layout.`,
 	Run:     run,
 }
 var (
@@ -83,7 +83,7 @@ func run(cmd *cobra.Command, args []string) {
 	fmt.Printf("🎉 Project \u001B[36m%s\u001B[0m created successfully!\n\n", p.ProjectName)
 	fmt.Printf("Done. Now run:\n\n")
 	fmt.Printf("› \033[36mcd %s \033[0m\n", p.ProjectName)
-	fmt.Printf("› \033[36mnunu run \033[0m\n\n")
+	fmt.Printf("› \033[36morbit run \033[0m\n\n")
 }
 
 func (p *Project) cloneTemplate() (bool, error) {

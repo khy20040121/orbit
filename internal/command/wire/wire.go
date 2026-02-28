@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/go-nunu/nunu/internal/pkg/helper"
+	"github.com/khy20040121/orbit/internal/pkg/helper"
 	"github.com/spf13/cobra"
 )
 
@@ -69,9 +69,9 @@ var CmdWire = &cobra.Command{
 }
 var CmdWireAll = &cobra.Command{
 	Use:     "all",
-	Short:   "nunu wire all",
-	Long:    "nunu wire all",
-	Example: "nunu wire all",
+	Short:   "orbit wire all",
+	Long:    "orbit wire all",
+	Example: "orbit wire all",
 	Run: func(cmd *cobra.Command, args []string) {
 		cmdArgs, _ := helper.SplitArgs(cmd, args)
 		var dir string

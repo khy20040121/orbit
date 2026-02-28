@@ -1,4 +1,4 @@
-module github.com/go-nunu/nunu
+module github.com/khy20040121/orbit
 
 go 1.16
 
