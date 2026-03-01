@@ -4,7 +4,7 @@ var (
 	Version      = "1.1.1"
 	WireCmd      = "github.com/google/wire/cmd/wire@latest"
 	OrbitCmd     = "github.com/go-orbit/orbit@latest"
-	RepoBase     = "https://github.com/khy20040121/orbit-layout-base.git"
+	RepoBase     = "https://github.com/khy20040121/orbit-layout-basic.git"
 	RepoAdvanced = "https://github.com/khy20040121/orbit-layout-advanced.git"
 	//RepoAdmin     = "https://github.com/khy20040121/orbit-layout-admin.git"
 	//RepoChat      = "https://github.com/khy20040121/orbit-layout-chat.git"
