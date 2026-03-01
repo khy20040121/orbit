@@ -36,7 +36,7 @@ Orbit 是一个基于Golang的应用脚手架，它是由Golang生态中各种�
 此外，还包含了一些其他的文件和目录，如授权文件、构建文件、README等。整体上，该项目的架构清晰，各个模块之间的职责明确，便于理解和维护。
 
 ## 要求
-要使用Nunu，您需要在系统上安装以下软件：
+要使用 Orbit，您需要在系统上安装以下软件：
 
 * Golang 1.19或更高版本
 * Git
@@ -45,7 +45,7 @@ Orbit 是一个基于Golang的应用脚手架，它是由Golang生态中各种�
 
 ### 安装
 
-您可以通过以下命令安装Nunu：
+您可以通过以下命令安装 Orbit：
 
 ```bash
 go install github.com/khy20040121/orbit@latest
@@ -78,10 +78,10 @@ Basic Layout 包含一个非常精简的架构目录结构
 
 * **高级模板(Advanced Layout)**
 
-**建议：我们推荐新手优先选择使用Advanced Layout。**
+Advanced Layout 包含一个完善的架构目录结构
 
 
-Advanced Layout 包含了很多 orbit 的用法示例（ db、redis、 jwt、 cron、 migration等
+Advanced Layout 包含了很多 orbit 的用法示例（ db、redis、 jwt、 cron、 migration )等
 
 此命令将创建一个名为`projectName`的目录，并在其中生成一个优雅的Golang项目结构。
 
@@ -109,7 +109,7 @@ orbit create all user
 orbit run
 ```
 
-此命令将启动您的Golang项目，并支持文件更新热重启。
+此命令将启动您的Golang项目。
 
 ### 编译wire.go
 
