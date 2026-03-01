@@ -66,18 +66,7 @@ $ go env -w GOPROXY=https://goproxy.cn,direct
 您可以使用以下命令创建一个新的Golang项目：
 
 ```bash
-// 推荐新用户选择Advanced Layout
 orbit new projectName
-```
-
-`nunu new`默认拉取github源，你也可以使用国内加速仓库
-```
-// 使用高级模板(推荐)
-nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-advanced.git
-
-// 使用基础模板
-nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-basic.git
-
 ```
 
 
@@ -85,14 +74,14 @@ nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-basic.git
 
 * **基础模板(Basic Layout)**
 
-Basic Layout 包含一个非常精简的架构目录结构，适合非常熟悉Nunu项目的开发者使用。
+Basic Layout 包含一个非常精简的架构目录结构 
 
 * **高级模板(Advanced Layout)**
 
 **建议：我们推荐新手优先选择使用Advanced Layout。**
 
 
-Advanced Layout 包含了很多 orbit 的用法示例（ db、redis、 jwt、 cron、 migration等），适合开发者快速学习了解Nunu的架构思想。
+Advanced Layout 包含了很多 orbit 的用法示例（ db、redis、 jwt、 cron、 migration等
 
 此命令将创建一个名为`projectName`的目录，并在其中生成一个优雅的Golang项目结构。
 
